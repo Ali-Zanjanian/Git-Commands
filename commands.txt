@@ -1,0 +1,31 @@
+git init #moarefi kardan be git
+git config --global user.name "" #config kardan esm
+git config --global user.email "" #config kardan email
+git config --list #neshan dadan config ha
+git status #neshan dadan taghirat
+git add filename 
+git commit -m "tozihat" #commit kardan taghirat
+git log #neshan dadan taghirat
+git log --oneline #neshan dadan taghirat bedune joziat
+git log -- state #neshan dadan taghirat ba joziat bishtar
+git branch new name #sakhte branche jadid
+git checkout branch name #faal kardan branch
+git branch -m oldname newname #taghir nam branch
+git branch -d branchname  #pak kardan taghirat bad az emal
+git branch -D branchname#pak kardane taghirat bedune emal
+git branch new <branchname> branch code #zakhire kardan yki az versionaye ghabl
+git revert branch hashcode #bazgardandan taghirat
+git revert --abort #revert ra barax mikonad
+git checkout branch hashcode #raftan be noskheye dade shode
+git revert --abort #cancel kardan amaliate revert
+git reset branch hashcode --soft #pak kardan branch ha ta branch dade shode va bordan file ha be halate staged
+git reset branch hash code --mixed (default) #pak kardan branch ha ta branch dade shode va bordan file ha be halate modify
+git reset branch hash code --hard #pak kardan branch ha ta branch dade shode va az delete kardan file ha
+.gitignore #yel file ke ba danane name directory ha ya file ha be an anhara az did git penham mikonim.
+ssh-keygen #dar terminal sshkey ra nasb mikonad.
+git remote add origin adress #esme mosataar dadan be yek repository dar github
+git remote -v #neshan dadane ettelaAt
+git push origin master #ferestadan repository be github
+git push url master #ferestadan repository be github
+git checkout -b one # git branch one>>>git checkout one
+git clone url 
